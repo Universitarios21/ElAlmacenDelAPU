@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to left, #F23005, #FF8519, #24F205);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+    padding-right: 2%;
+}
+
+.nav-link:hover {
+    color: #F23005;
+}
+
+.navbar-logo {
+    width: 2em; /* Ajusta el tamaño de la imagen según el tamaño de la fuente */
+    height: 2em; /* Asegúrate de que la altura sea igual al ancho para mantener la proporción */
+    border-radius: 50%; /* Esto hace que la imagen sea circular */
+    margin-right: 1rem; /* Espacio a la derecha de la imagen */
+    object-fit: cover; /* Asegura que la imagen se ajuste dentro del contenedor circular */
+}
+
+.blog-post {
+    margin-bottom: 2.5rem; /* Espacio entre posts */
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+.blog-post h3 {
+    color: #007bff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1.5rem; /* Espacio debajo de la imagen */
+}
+
+.blog-post p {
+    font-size: 1rem;
+}
+
+.textblog{
+    color:#F23005 !important;
+}
+
+.textblogsub{
+    color: white;
+    opacity: 0.5;
+}
+
+.textblogp{
+    color: white;
+    /*opacity: 0.8;*/
+}
+
+.btn {
+    background-color: #24F205; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: #5CF257; 
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9rem;
+}
+
+.card-header {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+}
+
+.card-body p,
+.list-group-item {
+    font-size: 1rem;
+}
+
+.textcard{
+    color:#24F205 ;
+}
+
+.text-link{
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit;
+}
+
+.card-container {
+    height: 80vh; /* Ajusta según necesites */
+    overflow-y: auto; /* Permitir scroll vertical */
+    overflow-x: hidden; /* Evitar scroll horizontal */
+    padding: 20px; /* Ajusta el valor según necesites para el margen */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total del contenedor */
+    background-color: rgba(255, 255, 255, 0.4); /* Color de fondo con opacidad */
+    border-radius: 15px; /* Ajusta el valor para redondear más o menos */
+}
+
+/* Estilo para el scroll */
+.card-container::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+.card-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo de la pista */
+    border-radius: 10px; /* Bordes redondeados de la pista */
+}
+
+.card-container::-webkit-scrollbar-thumb {
+    background: black; /* Color del "thumb" (parte que arrastras) */
+    border-radius: 10px; /* Bordes redondeados del "thumb" */
+}
+
+.card-container::-webkit-scrollbar-thumb:hover {
+    background: #24F205; /* Color del "thumb" al pasar el ratón */
+}
+
+.material-container{
+    margin: auto;
+    padding: auto;
+    background-color: rgba(255, 255, 255, 0.4); /* Color de fondo con opacidad */
+    border-radius: 15px;
+}
+
+
+/* Ajustes responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .blog-post h3 {
+        font-size: 2rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    .blog-post {
+        padding: 1rem;
+    }
+}
+
+/* Ajustes responsivos para dispositivos más pequeños como teléfonos móviles */
+@media (max-width: 576px) {
+    .blog-post {
+        margin-bottom: 1.5rem; /* Ajuste de márgenes */
+    }
+}
+
+/* Para dispositivos extra pequeños (xs): 0 */
+@media (max-width: 575.98px) {
+    body {
+        font-size: 2.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 3rem;
+    }
+
+    .blog-post h3 {
+        font-size: 3rem;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+
+    .blog-post {
+        padding: 0.5rem;
+    }
+}
+
+/* Para dispositivos pequeños (sm): 576px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        font-size: 2.2rem;
+    }
+
+    .navbar-brand {
+        font-size: 2.5rem;
+    }
+
+    .blog-post h3 {
+        font-size: 2.5rem;
+    }
+
+    footer {
+        font-size: 1.4rem;
+    }
+
+    .blog-post {
+        padding: 1rem;
+    }
+}
+
+/* Para dispositivos medianos (md): 768px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        font-size: 2rem;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .blog-post h3 {
+        font-size: 2rem;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+
+    .blog-post {
+        padding: 1.5rem;
+    }
+}
+
+/* Para dispositivos grandes (lg): 992px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        font-size: 1.6rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+
+    .blog-post h3 {
+        font-size: 1.8rem;
+    }
+
+    footer {
+        font-size: 1.1rem;
+    }
+
+    .blog-post {
+        padding: 2rem;
+    }
+}
+
+/* Para dispositivos extra grandes (xl): 1200px */
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.6rem;
+    }
+
+    .blog-post h3 {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    .blog-post {
+        padding: 2rem;
+    }
+}
