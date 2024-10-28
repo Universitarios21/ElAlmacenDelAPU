@@ -112,9 +112,8 @@ footer {
 }
 
 .card-container {
-    height: 80vh; /* Ajusta según necesites */
-    overflow-y: auto; /* Permitir scroll vertical */
-    overflow-x: hidden; /* Evitar scroll horizontal */
+    height: 100%; /* Ajusta según necesites */
+
     padding: 20px; /* Ajusta el valor según necesites para el margen */
     box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total del contenedor */
     background-color: rgba(255, 255, 255, 0.4); /* Color de fondo con opacidad */
@@ -146,6 +145,34 @@ footer {
     background-color: rgba(255, 255, 255, 0.4); /* Color de fondo con opacidad */
     border-radius: 15px;
 }
+
+.cursos-card {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: inherit; /* Mantiene el color del texto del elemento padre */
+    font-size: 2.5rem; /* Tamaño del ícono por defecto, ajústalo según sea necesario */
+    color: #24F205;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Suaviza el cambio de color y tamaño */
+}
+
+.cursos-card:hover {
+    color:#F23005; /* Cambia el color al pasar el cursor */
+    font-size: 4rem; /* Aumenta el tamaño del ícono al pasar el cursor */
+}
+
+.material-card {
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 3%;
+    height: 15vh;
+    width: 70%;
+
+}
+
+.material-card-text{
+    color: white !important;
+}
+
 
 
 /* Ajustes responsivos para dispositivos móviles */
