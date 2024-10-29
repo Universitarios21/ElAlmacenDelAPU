@@ -9,8 +9,6 @@ body {
     font-size: 1rem;
 }
 
-
-
 .navbar-brand {
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
@@ -159,6 +157,19 @@ footer {
     font-size: 4rem; /* Aumenta el tamaño del ícono al pasar el cursor */
 }
 
+.plataformas-card {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: inherit; /* Mantiene el color del texto del elemento padre */
+    font-size: 2.5rem; /* Tamaño del ícono por defecto, ajústalo según sea necesario */
+    color: #24F205;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Suaviza el cambio de color y tamaño */
+}
+
+.plataformas-card:hover {
+    color:#F23005; /* Cambia el color al pasar el cursor */
+    font-size: 4rem; /* Aumenta el tamaño del ícono al pasar el cursor */
+}
+
 .material-card {
     background-color: black;
     border-radius: 15px;
@@ -174,148 +185,175 @@ footer {
 }
 
 
-
 /* Ajustes responsivos para dispositivos móviles */
-@media (max-width: 768px) {
-    body {
-        font-size: 1.5rem;
-    }
-
-    .navbar-brand {
-        font-size: 2rem;
-    }
-
-    .blog-post h3 {
-        font-size: 2rem;
-    }
-
-    footer {
-        font-size: 1rem;
-    }
-
-    .blog-post {
-        padding: 1rem;
-    }
-}
-
-/* Ajustes responsivos para dispositivos más pequeños como teléfonos móviles */
 @media (max-width: 576px) {
-    .blog-post {
-        margin-bottom: 1.5rem; /* Ajuste de márgenes */
-    }
-}
 
-/* Para dispositivos extra pequeños (xs): 0 */
-@media (max-width: 575.98px) {
-    body {
-        font-size: 2.5rem;
+    /* INDEX */
+    .navbar-logo{
+        width: 2rem; 
+        height: 2rem; 
     }
 
     .navbar-brand {
-        font-size: 3rem;
+        font-size: 0.8rem !important;
     }
 
-    .blog-post h3 {
-        font-size: 3rem;
+    .navbar-toggler-icon{
+        width: 1.5rem;  
+        height: 1.5rem;
     }
 
-    footer {
-        font-size: 1.5rem;
+    .nav-link{
+        font-size: 0.7rem !important;
     }
 
-    .blog-post {
-        padding: 0.5rem;
+    .textblog{
+        font-size: 1rem !important;
+    }
+
+    .textblogsub{
+        font-size: 0.6rem !important;
+    }
+
+    .textblogp{
+        font-size: 0.8rem !important;
+        margin: 0rem;
+    }
+
+    .btn {
+        display: inline-block; /* Asegura que el elemento sea un bloque en línea */
+        padding: 0.5rem 1rem; /* Espacio interior: arriba/abajo y derecha/izquierda */
+        margin: 0rem;
+        font-size: 0.6rem; /* Tamaño de la fuente */
+        border: none; /* Sin borde */
+        border-radius: 0.25rem; /* Esquinas redondeadas */
+        background-color: #24F205; 
+        color: black; 
+        text-decoration: none; 
+        transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+    }
+    
+    .btn:hover {
+        background-color: #F23005; /* Color de fondo al pasar el mouse */
+        color: white;
+    }
+
+    .card-header{
+        font-size: 0.8rem !important;
+    }
+    .card-body p{
+        font-size: 0.8rem !important;
+    }
+    
+    .list-group-item{
+        font-size: 0.6rem !important;
+    }
+
+    .container p{
+        font-size: 0.6rem !important;
+    }
+
+ /* MATERIAL */
+    .titulos_sec{
+        font-size: 0.8rem !important;
+    }
+
+    .material-container{
+        padding-bottom: 2rem !important;
+    }
+
+    .material-card{
+        width: 15rem;  
+        height: 4rem;
+        align-items: center;
+        display: flex; 
+    }
+
+    .material-card-text{
+        font-size: 0.7rem !important;
+    }
+
+    .bi{
+        font-size: 1.5rem; 
+        padding-left: 3rem;
+    }
+
+    .bi:hover {
+        color:#F23005; /* Cambia el color al pasar el cursor */
+        font-size: 2rem; /* Aumenta el tamaño del ícono al pasar el cursor */
+    }
+    .cursos-card {
+        display: flex; /* Asegura que el contenido dentro del enlace esté alineado */
+        align-items: center; /* Centra verticalmente el contenido */
+    }
+
+    .material-row {
+        display: flex; /* Asegúrate de que sea flex */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente (opcional) */
+        flex-wrap: wrap; /* Permite que las tarjetas se ajusten si es necesario */
+    }
+
+    /* CURSOS */
+    .card-cursos{
+        min-height: 20rem !important;
+    }
+
+    .card-img {
+        width: 100%; /* Ajusta al 100% del contenedor */
+        height: auto; /* Mantiene la proporción */
+        object-fit: contain; /* La imagen se ajusta manteniendo su proporción */
+    }
+    
+    .text-curso{
+        font-size: 0.8rem !important;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centra verticalmente el contenido */
+        align-items: center; /* Centra horizontalmente el contenido */
+    }
+
+    /* PLATAFORMAS */
+    .text-plataforma{
+        font-size: 1rem !important;
+    }
+
+    .card-plataforma{
+        min-height: 20rem !important;
+    }
+
+    .plataformas-icon{
+        padding-left: 1rem; /* Padding por defecto */
+        padding-right: 1rem; 
+    }
+
+    .plataformas-card {
+        margin-left: 1rem; /* Esto empuja el ícono hacia la derecha */
+        padding-left: 15px;
+        
+    }
+
+    .plataformas-li {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+    /* TUTORIALES */
+    .tutoriales-card{
+        padding-bottom: 0;
     }
 }
 
-/* Para dispositivos pequeños (sm): 576px */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    body {
-        font-size: 2.2rem;
-    }
+/* Ajustes responsivos para sm*/
+@media (min-width:577px) and (max-width: 768px) {
+    
+} 
 
-    .navbar-brand {
-        font-size: 2.5rem;
-    }
-
-    .blog-post h3 {
-        font-size: 2.5rem;
-    }
-
-    footer {
-        font-size: 1.4rem;
-    }
-
-    .blog-post {
-        padding: 1rem;
-    }
-}
-
-/* Para dispositivos medianos (md): 768px */
-@media (min-width: 768px) and (max-width: 991.98px) {
-    body {
-        font-size: 2rem;
-    }
-
-    .navbar-brand {
-        font-size: 2rem;
-    }
-
-    .blog-post h3 {
-        font-size: 2rem;
-    }
-
-    footer {
-        font-size: 1.2rem;
-    }
-
-    .blog-post {
-        padding: 1.5rem;
-    }
-}
-
-/* Para dispositivos grandes (lg): 992px */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    body {
-        font-size: 1.6rem;
-    }
-
-    .navbar-brand {
-        font-size: 1.8rem;
-    }
-
-    .blog-post h3 {
-        font-size: 1.8rem;
-    }
-
-    footer {
-        font-size: 1.1rem;
-    }
-
-    .blog-post {
-        padding: 2rem;
-    }
-}
-
-/* Para dispositivos extra grandes (xl): 1200px */
-@media (min-width: 1200px) {
-    body {
-        font-size: 1.5rem;
-    }
-
-    .navbar-brand {
-        font-size: 1.6rem;
-    }
-
-    .blog-post h3 {
-        font-size: 1.6rem;
-    }
-
-    footer {
-        font-size: 1rem;
-    }
-
-    .blog-post {
-        padding: 2rem;
-    }
+/* Ajustes responsivos para md */
+@media (min-width:768px) and (max-width: 992px) {
+    
 }
