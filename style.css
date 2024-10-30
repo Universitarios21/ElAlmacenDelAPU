@@ -25,20 +25,27 @@ body {
 }
 
 .navbar-logo {
-    width: 2em; /* Ajusta el tamaño de la imagen según el tamaño de la fuente */
-    height: 2em; /* Asegúrate de que la altura sea igual al ancho para mantener la proporción */
-    border-radius: 50%; /* Esto hace que la imagen sea circular */
-    margin-right: 1rem; /* Espacio a la derecha de la imagen */
-    object-fit: cover; /* Asegura que la imagen se ajuste dentro del contenedor circular */
+    width: 2em;
+    /* Ajusta el tamaño de la imagen según el tamaño de la fuente */
+    height: 2em;
+    /* Asegúrate de que la altura sea igual al ancho para mantener la proporción */
+    border-radius: 50%;
+    /* Esto hace que la imagen sea circular */
+    margin-right: 1rem;
+    /* Espacio a la derecha de la imagen */
+    object-fit: cover;
+    /* Asegura que la imagen se ajuste dentro del contenedor circular */
 }
 
 .blog-post {
-    margin-bottom: 2.5rem; /* Espacio entre posts */
+    margin-bottom: 2.5rem;
+    /* Espacio entre posts */
     padding: 1.5rem;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra para profundidad */
 }
 
 .blog-post h3 {
@@ -51,34 +58,35 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    margin-bottom: 1.5rem; /* Espacio debajo de la imagen */
+    margin-bottom: 1.5rem;
+    /* Espacio debajo de la imagen */
 }
 
 .blog-post p {
     font-size: 1rem;
 }
 
-.textblog{
-    color:#F23005 !important;
+.textblog {
+    color: #F23005 !important;
 }
 
-.textblogsub{
+.textblogsub {
     color: white;
     opacity: 0.5;
 }
 
-.textblogp{
+.textblogp {
     color: white;
     /*opacity: 0.8;*/
 }
 
 .btn {
-    background-color: #24F205; 
-    transition: background-color 0.3s ease; 
+    background-color: #24F205;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #5CF257; 
+    background-color: #5CF257;
 }
 
 footer {
@@ -100,74 +108,99 @@ footer {
     font-size: 1rem;
 }
 
-.textcard{
-    color:#24F205 ;
+.textcard {
+    color: #24F205;
 }
 
-.text-link{
-    text-decoration: none; /* Elimina el subrayado */
+.text-link {
+    text-decoration: none;
+    /* Elimina el subrayado */
     color: inherit;
 }
 
 .card-container {
-    height: 100%; /* Ajusta según necesites */
+    height: 100%;
+    /* Ajusta según necesites */
 
-    padding: 20px; /* Ajusta el valor según necesites para el margen */
-    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total del contenedor */
-    background-color: rgba(255, 255, 255, 0.4); /* Color de fondo con opacidad */
-    border-radius: 15px; /* Ajusta el valor para redondear más o menos */
+    padding: 20px;
+    /* Ajusta el valor según necesites para el margen */
+    box-sizing: border-box;
+    /* Asegura que el padding no afecte el tamaño total del contenedor */
+    background-color: rgba(255, 255, 255, 0.4);
+    /* Color de fondo con opacidad */
+    border-radius: 15px;
+    /* Ajusta el valor para redondear más o menos */
 }
 
 /* Estilo para el scroll */
 .card-container::-webkit-scrollbar {
-    width: 12px; /* Ancho de la barra de desplazamiento */
+    width: 12px;
+    /* Ancho de la barra de desplazamiento */
 }
 
 .card-container::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Color de fondo de la pista */
-    border-radius: 10px; /* Bordes redondeados de la pista */
+    background: #f1f1f1;
+    /* Color de fondo de la pista */
+    border-radius: 10px;
+    /* Bordes redondeados de la pista */
 }
 
 .card-container::-webkit-scrollbar-thumb {
-    background: black; /* Color del "thumb" (parte que arrastras) */
-    border-radius: 10px; /* Bordes redondeados del "thumb" */
+    background: black;
+    /* Color del "thumb" (parte que arrastras) */
+    border-radius: 10px;
+    /* Bordes redondeados del "thumb" */
 }
 
 .card-container::-webkit-scrollbar-thumb:hover {
-    background: #24F205; /* Color del "thumb" al pasar el ratón */
+    background: #24F205;
+    /* Color del "thumb" al pasar el ratón */
 }
 
-.material-container{
+.material-container {
     margin: auto;
     padding: auto;
-    background-color: rgba(255, 255, 255, 0.4); /* Color de fondo con opacidad */
+    background-color: rgba(255, 255, 255, 0.4);
+    /* Color de fondo con opacidad */
     border-radius: 15px;
 }
 
 .cursos-card {
-    text-decoration: none; /* Quita el subrayado del enlace */
-    color: inherit; /* Mantiene el color del texto del elemento padre */
-    font-size: 2.5rem; /* Tamaño del ícono por defecto, ajústalo según sea necesario */
+    text-decoration: none;
+    /* Quita el subrayado del enlace */
+    color: inherit;
+    /* Mantiene el color del texto del elemento padre */
+    font-size: 2.5rem;
+    /* Tamaño del ícono por defecto, ajústalo según sea necesario */
     color: #24F205;
-    transition: color 0.3s ease, font-size 0.3s ease; /* Suaviza el cambio de color y tamaño */
+    transition: color 0.3s ease, font-size 0.3s ease;
+    /* Suaviza el cambio de color y tamaño */
 }
 
 .cursos-card:hover {
-    color:#F23005; /* Cambia el color al pasar el cursor */
-    font-size: 4rem; /* Aumenta el tamaño del ícono al pasar el cursor */
+    color: #F23005;
+    /* Cambia el color al pasar el cursor */
+    font-size: 4rem;
+    /* Aumenta el tamaño del ícono al pasar el cursor */
 }
 
 .plataformas-card {
-    text-decoration: none; /* Quita el subrayado del enlace */
-    color: inherit; /* Mantiene el color del texto del elemento padre */
-    font-size: 2.5rem; /* Tamaño del ícono por defecto, ajústalo según sea necesario */
+    text-decoration: none;
+    /* Quita el subrayado del enlace */
+    color: inherit;
+    /* Mantiene el color del texto del elemento padre */
+    font-size: 2.5rem;
+    /* Tamaño del ícono por defecto, ajústalo según sea necesario */
     color: #24F205;
-    transition: color 0.3s ease, font-size 0.3s ease; /* Suaviza el cambio de color y tamaño */
+    transition: color 0.3s ease, font-size 0.3s ease;
+    /* Suaviza el cambio de color y tamaño */
 }
 
 .plataformas-card:hover {
-    color:#F23005; /* Cambia el color al pasar el cursor */
-    font-size: 4rem; /* Aumenta el tamaño del ícono al pasar el cursor */
+    color: #F23005;
+    /* Cambia el color al pasar el cursor */
+    font-size: 4rem;
+    /* Aumenta el tamaño del ícono al pasar el cursor */
 }
 
 .material-card {
@@ -180,7 +213,7 @@ footer {
 
 }
 
-.material-card-text{
+.material-card-text {
     color: white !important;
 }
 
@@ -189,171 +222,589 @@ footer {
 @media (max-width: 576px) {
 
     /* INDEX */
-    .navbar-logo{
-        width: 2rem; 
-        height: 2rem; 
+    .navbar-logo {
+        width: 2rem;
+        height: 2rem;
     }
 
     .navbar-brand {
         font-size: 0.8rem !important;
     }
 
-    .navbar-toggler-icon{
-        width: 1.5rem;  
+    .navbar-toggler-icon {
+        width: 1.5rem;
         height: 1.5rem;
     }
 
-    .nav-link{
-        font-size: 0.7rem !important;
-    }
-
-    .textblog{
-        font-size: 1rem !important;
-    }
-
-    .textblogsub{
+    .nav-link {
         font-size: 0.6rem !important;
     }
 
-    .textblogp{
+    .textblog {
+        font-size: 1rem !important;
+    }
+
+    .textblogsub {
+        font-size: 0.6rem !important;
+    }
+
+    .textblogp {
         font-size: 0.8rem !important;
         margin: 0rem;
     }
 
     .btn {
-        display: inline-block; /* Asegura que el elemento sea un bloque en línea */
-        padding: 0.5rem 1rem; /* Espacio interior: arriba/abajo y derecha/izquierda */
+        display: inline-block;
+        /* Asegura que el elemento sea un bloque en línea */
+        padding: 0.5rem 1rem;
+        /* Espacio interior: arriba/abajo y derecha/izquierda */
         margin: 0rem;
-        font-size: 0.6rem; /* Tamaño de la fuente */
-        border: none; /* Sin borde */
-        border-radius: 0.25rem; /* Esquinas redondeadas */
-        background-color: #24F205; 
-        color: black; 
-        text-decoration: none; 
-        transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+        font-size: 0.6rem;
+        /* Tamaño de la fuente */
+        border: none;
+        /* Sin borde */
+        border-radius: 0.25rem;
+        /* Esquinas redondeadas */
+        background-color: #24F205;
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        /* Transición suave para el color de fondo */
     }
-    
+
     .btn:hover {
-        background-color: #F23005; /* Color de fondo al pasar el mouse */
+        background-color: #F23005;
+        /* Color de fondo al pasar el mouse */
         color: white;
     }
 
-    .card-header{
+    .card-header {
         font-size: 0.8rem !important;
     }
-    .card-body p{
+
+    .card-body p {
         font-size: 0.8rem !important;
     }
-    
-    .list-group-item{
+
+    .list-group-item {
         font-size: 0.6rem !important;
     }
 
-    .container p{
+    .container p {
         font-size: 0.6rem !important;
     }
 
- /* MATERIAL */
-    .titulos_sec{
+    /* MATERIAL */
+    .titulos_sec {
         font-size: 0.8rem !important;
     }
 
-    .material-container{
+    .material-container {
         padding-bottom: 2rem !important;
     }
 
-    .material-card{
-        width: 15rem;  
+    .material-card {
+        width: 15rem;
         height: 4rem;
         align-items: center;
-        display: flex; 
+        display: flex;
     }
 
-    .material-card-text{
+    .material-card-text {
         font-size: 0.7rem !important;
     }
 
-    .bi{
-        font-size: 1.5rem; 
+    .bi {
+        font-size: 1.5rem;
         padding-left: 3rem;
     }
 
     .bi:hover {
-        color:#F23005; /* Cambia el color al pasar el cursor */
-        font-size: 2rem; /* Aumenta el tamaño del ícono al pasar el cursor */
+        color: #F23005;
+        /* Cambia el color al pasar el cursor */
+        font-size: 2rem;
+        /* Aumenta el tamaño del ícono al pasar el cursor */
     }
+
     .cursos-card {
-        display: flex; /* Asegura que el contenido dentro del enlace esté alineado */
-        align-items: center; /* Centra verticalmente el contenido */
+        display: flex;
+        /* Asegura que el contenido dentro del enlace esté alineado */
+        align-items: center;
+        /* Centra verticalmente el contenido */
     }
 
     .material-row {
-        display: flex; /* Asegúrate de que sea flex */
-        justify-content: center; /* Centra horizontalmente */
-        align-items: center; /* Centra verticalmente (opcional) */
-        flex-wrap: wrap; /* Permite que las tarjetas se ajusten si es necesario */
+        display: flex;
+        /* Asegúrate de que sea flex */
+        justify-content: center;
+        /* Centra horizontalmente */
+        align-items: center;
+        /* Centra verticalmente (opcional) */
+        flex-wrap: wrap;
+        /* Permite que las tarjetas se ajusten si es necesario */
     }
 
     /* CURSOS */
-    .card-cursos{
+    .card-cursos {
         min-height: 20rem !important;
     }
 
     .card-img {
-        width: 100%; /* Ajusta al 100% del contenedor */
-        height: auto; /* Mantiene la proporción */
-        object-fit: contain; /* La imagen se ajusta manteniendo su proporción */
+        width: 100%;
+        /* Ajusta al 100% del contenedor */
+        height: auto;
+        /* Mantiene la proporción */
+        object-fit: contain;
+        /* La imagen se ajusta manteniendo su proporción */
     }
-    
-    .text-curso{
+
+    .text-curso {
         font-size: 0.8rem !important;
     }
 
     .card-body {
         display: flex;
         flex-direction: column;
-        justify-content: center; /* Centra verticalmente el contenido */
-        align-items: center; /* Centra horizontalmente el contenido */
+        justify-content: center;
+        /* Centra verticalmente el contenido */
+        align-items: center;
+        /* Centra horizontalmente el contenido */
     }
 
     /* PLATAFORMAS */
-    .text-plataforma{
+    .text-plataforma {
         font-size: 1rem !important;
     }
 
-    .card-plataforma{
+    .card-plataforma {
         min-height: 20rem !important;
     }
 
-    .plataformas-icon{
-        padding-left: 1rem; /* Padding por defecto */
-        padding-right: 1rem; 
+    .plataformas-icon {
+        padding-left: 1rem;
+        /* Padding por defecto */
+        padding-right: 1rem;
     }
 
     .plataformas-card {
-        margin-left: 1rem; /* Esto empuja el ícono hacia la derecha */
+        margin-left: 1rem;
+        /* Esto empuja el ícono hacia la derecha */
         padding-left: 15px;
-        
+
     }
 
     .plataformas-li {
-        display: flex; 
-        justify-content: space-between; 
-        align-items: center; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /* TUTORIALES */
-    .tutoriales-card{
+    .tutoriales-card {
         padding-bottom: 0;
     }
 }
 
 /* Ajustes responsivos para sm*/
-@media (min-width:577px) and (max-width: 768px) {
+@media (min-width:577px) and (max-width: 992px) {
+
+    .fondo {
+        width: 50%;            /* Ajusta el tamaño según sea necesario */
+        height: 50%;           /* Ajusta la altura según sea necesario */
+        background-image: url('img/logo_u21_r.jpg');
+        background-size: contain; /* Cambia a contain para evitar recortes */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        opacity: 0.5;
+    } 
     
-} 
+    /* INDEX */
+    .navbar-logo {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 0.8rem !important;
+    }
+
+    .textblog {
+        font-size: 1.2rem !important;
+    }
+
+    .textblogsub {
+        font-size: 0.7rem !important;
+    }
+
+    .textblogp {
+        font-size: 0.8rem !important;
+        margin: 0rem;
+    }
+
+    .btn {
+        display: inline-block;
+        /* Asegura que el elemento sea un bloque en línea */
+        padding: 0.5rem 1rem;
+        /* Espacio interior: arriba/abajo y derecha/izquierda */
+        margin: 0rem;
+        font-size: 0.6rem;
+        /* Tamaño de la fuente */
+        border: none;
+        /* Sin borde */
+        border-radius: 0.25rem;
+        /* Esquinas redondeadas */
+        background-color: #24F205;
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        /* Transición suave para el color de fondo */
+    }
+
+    .btn:hover {
+        background-color: #F23005;
+        /* Color de fondo al pasar el mouse */
+        color: white;
+    }
+
+    .card-header {
+        font-size: 0.8rem !important;
+    }
+
+    .card-body p {
+        font-size: 0.8rem !important;
+    }
+
+    .list-group-item {
+        font-size: 0.6rem !important;
+    }
+
+    .container p {
+        font-size: 0.6rem !important;
+    }
+
+    /* MATERIAL */
+    html,body {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        flex: 1;
+    }
+
+    .titulos_sec {
+        font-size: 1.1rem !important;
+    }
+
+    .material-container {
+        padding-bottom: 2rem !important;
+    }
+
+    .material-card {
+        width: 100%;
+    }
+
+    .material-card-text {
+        font-size: 0.8rem !important;
+    }
+
+    .bi {
+        font-size: 1.5rem;
+        padding-left: 3rem;
+    }
+
+    .bi:hover {
+        color: #F23005;
+        /* Cambia el color al pasar el cursor */
+        font-size: 2rem;
+        /* Aumenta el tamaño del ícono al pasar el cursor */
+    }
+
+    .cursos-card {
+        display: flex;
+        /* Asegura que el contenido dentro del enlace esté alineado */
+        align-items: center;
+        /* Centra verticalmente el contenido */
+    }
+
+    .material-row {
+        display: flex; /* Establece un contenedor flex */
+        flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+        gap: 1rem;
+    }
+
+    /* CURSOS */
+    .card-cursos {
+        min-height: 20rem !important;
+    }
+
+    .container-principal {
+        margin-bottom: 50px; /* Ajusta este valor según sea necesario */
+    }
+
+    .card-img {
+        width: 100%;
+        /* Ajusta al 100% del contenedor */
+        height: auto;
+        /* Mantiene la proporción */
+        object-fit: contain;
+        /* La imagen se ajusta manteniendo su proporción */
+    }
+
+    .text-curso {
+        font-size: 0.7rem !important;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* Centra verticalmente el contenido */
+        align-items: flex-start;
+        /* Centra horizontalmente el contenido */
+    }
+
+    /* PLATAFORMAS */
+    .text-plataforma {
+        font-size: 1rem !important;
+    }
+
+    .card-plataforma {
+        min-height: 20rem !important;
+    }
+
+    .plataformas-icon {
+        padding-left: 1rem;
+        /* Padding por defecto */
+        padding-right: 1rem;
+    }
+
+    .plataformas-card {
+        margin-left: 1rem;
+        /* Esto empuja el ícono hacia la derecha */
+        padding-left: 15px;
+
+    }
+
+    .plataformas-li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* TUTORIALES */
+    .tutoriales-card {
+        padding-bottom: 0;
+    }
+}
 
 /* Ajustes responsivos para md */
-@media (min-width:768px) and (max-width: 992px) {
-    
+@media (min-width:993px) and (max-width: 1280px) {
+
+      /* INDEX */
+      .navbar-logo {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.3rem !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 0.7rem !important;
+    }
+
+    .textblog {
+        font-size: 1.5rem !important;
+    }
+
+    .textblogsub {
+        font-size: 1rem !important;
+    }
+
+    .textblogp {
+        font-size: 1rem !important;
+        margin: 0rem;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        margin: 0rem;
+        font-size: 0.6rem;
+        border: none;
+        border-radius: 0.25rem;
+        background-color: #24F205;
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #F23005;
+        /* Color de fondo al pasar el mouse */
+        color: white;
+    }
+
+    .card-header {
+        font-size: 0.8rem !important;
+    }
+
+    .card-body p {
+        font-size: 1rem !important;
+    }
+
+    .list-group-item {
+        font-size: 0.6rem !important;
+    }
+
+    .container p {
+        font-size: 0.6rem !important;
+    }
+
+    /* MATERIAL */
+    html,body {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        flex: 1;
+    }
+
+    .titulos_sec {
+        font-size: 1.1rem !important;
+    }
+
+    .material-container {
+        padding-bottom: 2rem !important;
+    }
+
+    .material-card {
+        width: 15rem;
+        height: 4rem;
+        align-items: center;
+        display: flex;
+    }
+
+    .material-card-text {
+        font-size: 0.8rem !important;
+    }
+
+    .bi {
+        font-size: 1.5rem;
+        padding-left: 3rem;
+    }
+
+    .bi:hover {
+        color: #F23005;
+        /* Cambia el color al pasar el cursor */
+        font-size: 2rem;
+        /* Aumenta el tamaño del ícono al pasar el cursor */
+    }
+
+    .cursos-card {
+        display: flex;
+        /* Asegura que el contenido dentro del enlace esté alineado */
+        align-items: center;
+        /* Centra verticalmente el contenido */
+    }
+
+    .material-row {
+        display: flex;
+        /* Asegúrate de que sea flex */
+        justify-content: center;
+        /* Centra horizontalmente */
+        align-items: center;
+        /* Centra verticalmente (opcional) */
+        flex-wrap: wrap;
+        /* Permite que las tarjetas se ajusten si es necesario */
+    }
+
+    /* CURSOS */
+    .card-cursos {
+        min-height: 20rem !important;
+    }
+
+    .container-principal {
+        margin-bottom: 50px; /* Ajusta este valor según sea necesario */
+    }
+
+    .card-img {
+        width: 100%;
+        /* Ajusta al 100% del contenedor */
+        height: auto;
+        /* Mantiene la proporción */
+        object-fit: contain;
+        /* La imagen se ajusta manteniendo su proporción */
+    }
+
+    .text-curso {
+        font-size: 0.8rem !important;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* Centra verticalmente el contenido */
+        align-items: center;
+        /* Centra horizontalmente el contenido */
+    }
+
+    /* PLATAFORMAS */
+    .text-plataforma {
+        font-size: 1rem !important;
+    }
+
+    .card-plataforma {
+        min-height: 20rem !important;
+    }
+
+    .plataformas-icon {
+        padding-left: 1rem;
+        /* Padding por defecto */
+        padding-right: 1rem;
+    }
+
+    .plataformas-card {
+        margin-left: 1rem;
+        /* Esto empuja el ícono hacia la derecha */
+        padding-left: 15px;
+
+    }
+
+    .plataformas-li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* TUTORIALES */
+    .tutoriales-card {
+        padding-bottom: 0;
+    }
 }
